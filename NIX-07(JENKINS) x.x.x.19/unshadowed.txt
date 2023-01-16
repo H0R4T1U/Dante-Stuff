@@ -1,0 +1,4 @@
+root:$6$J/xusJ2LSZlQSboS$kijhmbrRC7q9Hy9CZQCzXDgkMTlARqKxLuM/VflUxXIddE86.FNogbLrlkVPuaK5UtBE1dSKLMtNYPlJXDITW.:0:0:root:/root:/bin/bash
+lou:$6$WJTcuSqcV4rxO/oL$5Pq/jCOlGvMVTAMSdANO6ku9bWWHae.QDi0ksSEK/MnueAUs.CxLXk0GaF1BWs9w3jUXlgTnLcGRT7x1byyRc1:1000:1000:lou,,,:/home/lou:/bin/bash
+jenkins:*:126:133:Jenkins,,,:/var/lib/jenkins:/bin/bash
+ian:$6$CVnBOwSsKhD3PDAX$QQRNv.7Q2Xieybazy7pD8lfqGEzPN16BzDGwQ9DBkypBvcITbkwE3OTCdGV0d3ZUjgx9yjtU7rIuRIKy5UmNH0:1001:1001:,,,:/home/ian:/bin/bash

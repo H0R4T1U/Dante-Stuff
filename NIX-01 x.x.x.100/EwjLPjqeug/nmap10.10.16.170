@@ -1,0 +1,16 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-06 17:49 CET
+Nmap scan report for 10.10.16.170 (10.10.16.170)
+Host is up.
+
+PORT     STATE    SERVICE VERSION
+4444/tcp filtered krb524
+Too many fingerprints match this host to give specific OS details
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+1   1.10 ms 192.168.1.1
+2   8.45 ms 10.0.0.1 (10.0.0.1)
+3   ... 30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.89 seconds

